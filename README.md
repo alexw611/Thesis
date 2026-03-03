@@ -106,7 +106,7 @@ pip install -r requirements_attacker.txt
 - All attack scripts were developed and executed **exclusively within an isolated lab network.**
 - **No production systems, third-party networks, or external devices were targeted at any point during this research.**
 - The "Vulnerable by Design" system was specifically built for this thesis to demonstrate common IoT security flaws in a controlled environment.
-- The isolated lab environment is documented in the thesis (Appendix D.3: Ethiknachweis).
+- The isolated lab environment is documented in the thesis (Appendix E.3: Ethiknachweis).
 
 ### By accessing this repository, you agree to the following:
 1. **You will NOT use any of the provided attack scripts against systems you do not own or have explicit written permission to test.**
@@ -138,7 +138,7 @@ pip install -r requirements_attacker.txt
 - The results challenge the assumption that hardening an IoT camera system with resource-constrained microcontrollers necessarily entails significant performance penalties
 
 ## AI Disclosure
-Parts of the source code were generated with the assistance of AI tools (Claude Opus 4.5, Claude Opus 4.6, Gemini 3 Pro). All AI-generated content was critically reviewed, verified, and modified by the author. Full documentation of AI usage is provided in Appendix E of the thesis.
+Parts of the source code were generated with the assistance of AI tools (Claude Opus 4.5, Claude Opus 4.6, Gemini 3 Pro). All AI-generated content was critically reviewed, verified, and modified by the author. Full documentation of AI usage is provided in Appendix F of the thesis.
 
 ## License
 This project is provided **for educational and academic purposes only**. No license is granted for commercial use. See the ethical use disclaimer above.
