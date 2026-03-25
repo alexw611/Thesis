@@ -132,7 +132,7 @@ pip install -r requirements_attacker.txt
 
 ## Key Findings
 - Frame rate decrease of **9 to 12 %** on two of three cameras after hardening
-- Latency improvement of **29 to 69 %** with **33 % lower standard deviation**
+- Latency improvement of **29 to 69 %** with **33 % lower standard deviation** – although the NTP-based latency measurement is subject to methodological limitations (see Section 6.5 of the thesis)
 - Three of four attacks fully blocked after hardening; DoS attack mitigated
 - The unexpected latency improvement is attributed to bufferbloat mitigation caused by the reduced send rate
 - The results challenge the assumption that hardening an IoT camera system with resource-constrained microcontrollers necessarily entails significant performance penalties
